@@ -6,13 +6,23 @@
     width: 15em;
 }
 
+.heroes li {
+    position: relative;
+    cursor: pointer;
+    background-color: #eee;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+}
+
 .heroes li:hover {
     color: #607D8B;
     background-color: #DDD;
     left: .1em;
 }
 
-heroes a{
+.heroes a {
     color: #888;
     text-decoration: none;
     position: relative;
@@ -20,7 +30,7 @@ heroes a{
     width: 250px;
 }
 
-heroes a:hover {
+.heroes a:hover {
     color: #607D8B;
 }
 
